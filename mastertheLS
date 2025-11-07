@@ -1,0 +1,1 @@
+ls -p -u -t --ignore='.*' | awk '{printf "%s%s", sep, $0; sep=","} END{print ""}'
